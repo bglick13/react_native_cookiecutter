@@ -17,11 +17,7 @@ app = FastAPI(title="{{cookiecutter.project_slug}}",
               docs_url="/api/docs", openapi_url="/api")
 
 origins = [
-    "http://localhost.tiangolo.com",
-    "https://localhost.tiangolo.com",
-    "http://localhost",
-    "http://localhost:8080",
-    "http://localhost:19006",
+    "*",
 ]
 
 app.add_middleware(

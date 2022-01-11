@@ -104,6 +104,7 @@ export default function App() {
     <Context.Provider value={[state, dispatch]}>
       <PaperProvider theme={CombinedDarkTheme}>
         <NavigationContainer theme={CombinedDarkTheme}>
+        {/* TODO: Check screen width to determine drawerType */}
           <Drawer.Navigator
             initialRouteName={state.settings.last_page}
             screenOptions={

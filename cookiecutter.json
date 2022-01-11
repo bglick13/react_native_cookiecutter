@@ -1,6 +1,6 @@
 {
     "project_slug": "",
-    "frontend_host": "localhost:8000",
+    "frontend_host": "backend.docker.localhost",
     "admin_username": "admin",
     "admin_password": "admin",
     "db_server": "db:5432",
