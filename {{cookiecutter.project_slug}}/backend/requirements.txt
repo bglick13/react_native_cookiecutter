@@ -53,7 +53,7 @@ six==1.15.0
 starlette==0.13.6
 typing-extensions==3.7.4.3
 ujson==4.0.1
-urllib3==1.26.2
+urllib3==1.26.5
 uvicorn==0.13.2
 websocket-client==0.57.0
 websockets==8.1
