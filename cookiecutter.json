@@ -7,9 +7,5 @@
     "db_name": "backend_db",
     "db_user": "postgres",
     "db_password": "postgres",
-    "secret_key": "secret_key",
-    "component_name": "{{cookiecutter.component_name}}",
-    "_copy_without_render": [
-        "frontend/components/*"
-    ]
+    "secret_key": "secret_key"
 }

@@ -1,7 +1,7 @@
 # To Run:
 
-- `npm install`
-- `npm run web`
+- `cd ..`
+- `cookiecutter react_native_cookiecutter`
 
 # Core:
 
