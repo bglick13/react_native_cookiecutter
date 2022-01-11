@@ -1,0 +1,15 @@
+{
+    "project_slug": "",
+    "frontend_host": "localhost:8000",
+    "admin_username": "admin",
+    "admin_password": "admin",
+    "db_server": "db:5432",
+    "db_name": "backend_db",
+    "db_user": "postgres",
+    "db_password": "postgres",
+    "secret_key": "secret_key",
+    "component_name": "{{cookiecutter.component_name}}",
+    "_copy_without_render": [
+        "frontend/components/*"
+    ]
+}
